@@ -33,19 +33,75 @@ div{
 	color: #fff;
 	font-size: 28px;
 }
-.linea{
-	background-image: url(linea.PNG);
-}
+
 a {
 	text-decoration: none;
 	cursor: pointer;
+	background-color: 
 }
 aside a{
-	color: #fff;
+	color:  #fff;
 }
+
+.summary p:first-child 
+{
+font-size: 100%;}{
+
+}
+.summary a:hover{
+	background-color:#01DF01;
+}
+
+#design-selection ul li{
+    margin-left: 80px;
+    margin-right: 150px;
+    color:#01DF01;
+
+}
+
+#design-selection a:hover{
+	background-color:#01DF01;
+}
+
+
+#design-archives ul li{
+	 margin-left: 80px;
+    margin-right: 150px;
+    color:#01DF01;
+}
+#design-arhives  li a:hover{
+	background-color:#01DF01;
+}
+
+#zen-resources ul li{
+    margin-left: 80px;
+    margin-right: 150px;
+    color:#01DF01;
+}
+
 body{
+	
 	margin-top: 50px;
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
+    z-index: 2000;
+}
+
+.design-archives nav ul li:first-child {
+	margin-top:50px;
+	margin-left: 80px;
+    margin-right: 150px;
+    font-size: 100%;
+	background: ##01DF01;
+	transform: rotate(5deg);
+}
+
+.design-archives nav ul li:last-child {
+	margin-top:20px;
+	margin-left: 80px;
+    margin-right: 150px;
+    font-size: 100%;
+	background: ##01DF01;
+	transform: rotate(5deg);
 }
